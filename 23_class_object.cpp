@@ -9,7 +9,7 @@ class mouse
     bool isWireLess;
 
 public:
-    void setMouse(string cn, string c, int p, float r, bool wl)
+    void setMouse(string cn, string c, int p, float r, bool wl) // setter method
     {
         companyName = cn;
         color = c;
@@ -17,7 +17,7 @@ public:
         rating = r;
         isWireLess = wl;
     }
-    void getMouse()
+    void getMouse()  //getter method
     {
         cout << "mouse info : " << endl;
         cout << "mouse company name : " << companyName << endl;
@@ -25,7 +25,7 @@ public:
         cout << "mouse price: " << price << endl;
         cout << "mouse rating: " << rating << endl;
         cout << "mouse isWireLess: " << isWireLess << endl;
-        cout<<"---------------------------------------"<<endl;
+        cout << "---------------------------------------" << endl;
     }
 };
 int main()
@@ -33,10 +33,13 @@ int main()
     mouse m1, m2, m3;
 
     m1.setMouse("hp", "black", 400, 3.7, true);
+
     m2.setMouse("frontech", "white", 700, 4.5, true);
     m3.setMouse("dell", "red", 300, 2.5, false);
+
     m1.getMouse();
     m2.getMouse();
     m3.getMouse();
+
     return 0;
 }
