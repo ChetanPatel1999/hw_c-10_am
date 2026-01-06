@@ -11,7 +11,7 @@ class Student
     static int totalStudent;
 
 public:
-    void setStudent(string n, int r, float p)
+    Student(string n, int r, float p)
     {
         name = n;
         rno = r;
@@ -64,12 +64,11 @@ string Student::collageName;
 int Student::totalStudent = 0;
 int main()
 {
-    Student s1, s2, s3, s4;
     Student::setCollageName("IIST Collage");
-    s1.setStudent("nidhi", 101, 12);
-    s2.setStudent("bhumika", 102, 80);
-    s3.setStudent("kunal", 103, 45);
-    s4.setStudent("ranveer", 104, 99);
+    Student s1("nidhi", 101, 12);
+    Student s2("bhumika", 102, 80);
+    Student s3("kunal", 103, 45);
+    Student s4("ranveer", 104, 99);
     s1.getResultCard();
     s2.getResultCard();
     s3.getResultCard();
