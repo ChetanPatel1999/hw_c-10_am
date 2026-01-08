@@ -1,2 +1,5 @@
-int demo::x;
-// int demo::y;
+ // emp(emp &obj)  // copy constructor
+    // {
+    //     id = obj.id;
+    //     sallary = obj.sallary;
+    // }
