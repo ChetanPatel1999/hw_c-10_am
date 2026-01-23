@@ -31,7 +31,7 @@ void trial::display2(data obj)
 }
 int main()
 {
-    data d1(12, 5);
+    data d1(12, 5);68
     trial t1;
     t1.display1(d1);
     t1.display2(d1);
