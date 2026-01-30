@@ -1,5 +1,2 @@
- // emp(emp &obj)  // copy constructor
-    // {
-    //     id = obj.id;
-    //     sallary = obj.sallary;
-    // }
+data d4("home", "pen");
+    // d4.getData();
