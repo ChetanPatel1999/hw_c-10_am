@@ -5,10 +5,7 @@ int main()
 {
     int arr[5] = {12, 34, 56, 78, 90};
     int i;
-    cout << "arr element are : ";
-    for (i = 0; i < 5; i++)
-    {
-        cout << arr[i] << " ";
-    }
+    cout << arr[9] << endl;
+    cout << "program run succefully";
     return 0;
 }
