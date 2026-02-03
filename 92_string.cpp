@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    string s = "indore city is a clean city";
+    int i;
+    // for (i = 0; i < s.length(); i++)
+    // {
+    //     cout << s[i] << " ";
+    // }
+    for (i = 0; s[i] != '\0'; i++)
+    {
+        cout << s[i] << " ";
+    }
+
+    return 0;
+}
